@@ -1,0 +1,25 @@
+.list-item {
+  list-style-type: none;
+}
+.buttonEl {
+  background-color: transparent;
+  border: 1.6px #f3aa4e solid;
+  border-radius: 40px;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 450;
+  padding: 7px;
+  margin: 10px;
+  cursor: pointer;
+}
+.ActiveBtnEl {
+  background-color: #f3aa4e;
+  border: 0 none;
+  border-radius: 40px;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 450;
+  padding: 7px;
+  margin: 10px;
+  cursor: pointer;
+}

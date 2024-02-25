@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.bg-container {
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+}
+.taskContainer {
+  background-color: #131213;
+  min-height: 100vh;
+  width: 50vw;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+}
+.main-heading {
+  color: #f3aa4e;
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+.labelEl {
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.inputEl {
+  background-color: #f8f8f8;
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 15px;
+  height: 5vh;
+  width: 25vw;
+  border: 0 none;
+  outline: none;
+  font-weight: 400;
+}
+.submit-btn {
+  background-color: #f3aa4e;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 450;
+  width: 10vw;
+  padding: 10px;
+  border: 0 none;
+  border-radius: 5px;
+  font-size: 15px;
+  align-self: center;
+  cursor: pointer;
+}
+.second-container {
+  background-color: #000000;
+  min-height: 100vh;
+  width: 50vw;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+}
+.ul-container {
+  display: flex;
+}
+.new-heading {
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 80px;
+}
+.task-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.heading {
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 40px;
+}
+.task-heading {
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}

@@ -1,0 +1,29 @@
+.task-list-item {
+  list-style-type: none;
+  background-color: #131213;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 0px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+.para {
+  color: #f1f5f9;
+  font-family: 'Roboto';
+  font-weight: 450;
+  font-size: 18px;
+}
+.tag-btn {
+  background-color: transparent;
+  border: 0 none;
+  border-radius: 40px;
+  color: #1a171d;
+  background-color: #f3aa4e;
+  font-size: 14px;
+  font-weight: 450;
+  padding: 7px;
+  margin: 10px;
+  cursor: pointer;
+}
